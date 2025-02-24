@@ -1,53 +1,47 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Nadezhda</title>
- 
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <menu>
-          <ul>
-            <a href="#">Начало</a>
-          </ul>
-          <ul>
-            <a href="#">За нас</a>
-          </ul>
-          <ul>
-            <a href="#">Контакти</a>
-          </ul>
-        </menu>
-      </nav>
-    </header>
- 
-    <main>
-      <h2>Да преоткрием света на html заедно</h2>
-      <h1>Моята любима нова страничка</h1>
-      <section>
-        <input type="text" placeholder="търси тук..." />
-        <button>Търси</button>
-      </section>
- 
-      <section>
-        <img width="250" alt="test image" src="./assets/picture.jpg" />
-      </section>
-      <section>
-        <h3>Следва продължение...</h3>
-      </section>
- 
-      <section>
-        <li><a href="#">Очаквайте новини</a></li>
-        <li><a href="#">Старт на учебната програма</a></li>
-      </section>
-    </main>
- 
-    <footer>
-      <p>&#169; Всички права запазени</p>
-      <p>&#174; Правила за употреба</p>
-    </footer>
-  </body>
-</html>
- 
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  header {
+    background-color: #333;
+  }
+  header nav {
+    text-align: center;
+  }
+  header nav ul {
+    list-style-type: none;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  main {
+    text-align: center;
+  }
+  main h1 {
+    margin: 10px 0;
+  }
+  main .search-bar {
+    margin-bottom: 10px;
+  }
+  main .image-container img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  main .description p {
+    width: 500px;
+    margin: 0 auto;
+  }
+  main .description h3,
+  main .description h4 {
+    margin-bottom: 10px;
+  }
+  footer {
+    text-align: center;
+    background-color: #333;
+  }
+  footer p {
+    color: #fff;
+  }
  
